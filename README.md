@@ -9,3 +9,15 @@
 	```javascript
 	to_top()
 	```
+
+4. Get url parameter
+
+	Use:
+
+	```javascript
+	// Link: https://site.com/?id=3
+
+	// Now, we will get URL Parameter of id
+
+	get_url_parameter('id')
+	```
