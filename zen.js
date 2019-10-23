@@ -13,3 +13,11 @@ $.expr[':'].contains = $.expr.createPseudo(function(arg){
 		return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0
 	}
 })
+
+// To top
+
+to_top = function(){
+	$('html, body').animate({
+		scrollTop: 0
+	}, 600);
+}
